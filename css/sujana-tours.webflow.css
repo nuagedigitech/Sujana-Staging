@@ -1,3 +1,7 @@
+p {
+  margin-bottom: 10px;
+}
+
 .top-nav-div {
   position: relative;
   z-index: 999;
@@ -95,8 +99,8 @@
 
 .main-bg-div {
   height: 650px;
-  background-image: url('../images/banner_bg.jpg');
-  background-position: 50% 50%;
+  background-image: url('../images/lovely_view_of_mount_kailash.jpg');
+  background-position: 50% 90%;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -183,6 +187,10 @@
   margin-top: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -193,10 +201,10 @@
   width: 320px;
   height: 160px;
   margin-right: 30px;
-  padding-left: 20px;
+  padding-left: 0px;
   border-radius: 6px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/5ihMJnIndia_Gate.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/5ihMJnIndia_Gate.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/lovely_view_of_mount_kailash.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/lovely_view_of_mount_kailash.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -204,12 +212,14 @@
 }
 
 .heading-2 {
+  margin-top: 0px;
   padding-top: 20px;
   font-family: Poppins, sans-serif;
   color: #fff;
   font-size: 21px;
   line-height: 25.2px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .paragraph-2 {
@@ -235,14 +245,23 @@
   box-shadow: 4px 4px 16px -2px #000;
 }
 
+.main-bg-main-dest-div-2.last {
+  padding-left: 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/dest_wiki_5433.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/dest_wiki_5433.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
 .main-bg-main-dest-div-3 {
   width: 320px;
   height: 160px;
   margin-right: 30px;
-  padding-left: 20px;
+  padding-left: 0px;
   border-radius: 6px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/odsfqxharidwar.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/odsfqxharidwar.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/1457720_683384285029832_148806331_n_20170503162300.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/1457720_683384285029832_148806331_n_20170503162300.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -252,11 +271,11 @@
 .main-bg-main-dest-div-4 {
   width: 320px;
   height: 160px;
-  margin-right: 30px;
-  padding-left: 20px;
+  margin-right: 0px;
+  padding-left: 0px;
   border-radius: 6px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/PWYI4C1st-January-2015-.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/PWYI4C1st-January-2015-.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/KEDARNATH.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/KEDARNATH.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -569,7 +588,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 25%;
+  width: 28%;
+  height: 580px;
   margin-right: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -588,10 +608,11 @@
 }
 
 .home-our-tours-card-div-1-top-div {
-  height: 160px;
-  background-image: url('../images/5ihMJnIndia_Gate.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
+  position: relative;
+  height: 220px;
+  background-image: url('../images/lovely_view_of_mount_kailash.jpg');
+  background-position: 45% 62%;
+  background-size: auto;
   background-repeat: no-repeat;
 }
 
@@ -600,7 +621,7 @@
 }
 
 .heading-5 {
-  margin-bottom: 8px;
+  margin-bottom: 30px;
   font-family: Poppins, sans-serif;
   color: #fc5b62;
   font-size: 20px;
@@ -704,16 +725,18 @@
 }
 
 .home-our-tours-card-div-1-top-div-2 {
-  height: 160px;
-  background-image: url('../images/ITChKitaj_mahal_main.jpg');
+  position: relative;
+  height: 220px;
+  background-image: url('../images/dest_wiki_5433.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .home-our-tours-card-div-1-top-div-3 {
-  height: 160px;
-  background-image: url('../images/odsfqxharidwar.jpg');
+  position: relative;
+  height: 220px;
+  background-image: url('../images/1457720_683384285029832_148806331_n_20170503162300.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -753,6 +776,187 @@
   color: hsla(0, 0%, 100%, 0.7);
 }
 
+.main-bg-main-dest-div-link-block {
+  display: block;
+  height: 100%;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.paragraph-5-link {
+  display: block;
+  margin-bottom: 0px;
+  font-family: Poppins, sans-serif;
+  color: #f65a60;
+  font-size: 14px;
+  line-height: 22.4px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.paragraph-5-link.dup {
+  margin-bottom: 0px;
+}
+
+.paragraph-5-link.icon {
+  display: block;
+  margin-left: 10px;
+  font-family: Icofont, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.tour-cards-view-details-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.tour-cards-view-details-content-div {
+  display: none;
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+
+.tours-card-rich-text p {
+  font-family: Poppins, sans-serif;
+  color: #555;
+  line-height: 22.4px;
+}
+
+.paragraph-5-link-cp-2 {
+  display: block;
+  margin-bottom: 0px;
+  font-family: Poppins, sans-serif;
+  color: #f65a60;
+  font-size: 14px;
+  line-height: 22.4px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.paragraph-5-link-cp-2.dup {
+  margin-bottom: 0px;
+}
+
+.paragraph-5-link-cp-2.icon {
+  display: block;
+  margin-left: 10px;
+  font-family: Icofont, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.tour-cards-view-details-content-div-copy-2 {
+  display: none;
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+
+.tour-cards-view-details-content-div-copy-3 {
+  display: none;
+  margin-bottom: 30px;
+  padding-right: 10px;
+}
+
+.paragraph-5-link-cp-3 {
+  display: block;
+  margin-bottom: 0px;
+  font-family: Poppins, sans-serif;
+  color: #f65a60;
+  font-size: 14px;
+  line-height: 22.4px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.paragraph-5-link-cp-3.dup {
+  margin-bottom: 0px;
+}
+
+.paragraph-5-link-cp-3.icon {
+  display: block;
+  margin-left: 10px;
+  font-family: Icofont, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.text-block-6 {
+  position: absolute;
+  left: auto;
+  top: 5%;
+  right: 0%;
+  bottom: auto;
+  display: inline-block;
+  padding: 8px;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+  background-color: #f65a60;
+  box-shadow: -1px 1px 6px -2px #000;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.mobile-follow-us-fixed-div {
+  display: none;
+}
+
+.top-nav-social-links-side {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding-right: 15px;
+  padding-left: 15px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social-links-side {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 90px;
+  background-color: #fc5b62;
+  box-shadow: 1px 1px 4px -2px #000;
+  font-family: Icofont, sans-serif;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links-side.last {
+  margin-right: 10px;
+}
+
 @media screen and (min-width: 1920px) {
   .top-nav-cont {
     position: relative;
@@ -773,6 +977,26 @@
 
   .main-bg-cont {
     max-width: 80%;
+  }
+
+  .main-bg-main-dest-div {
+    width: 360px;
+    height: 200px;
+  }
+
+  .main-bg-main-dest-div-2.last {
+    width: 360px;
+    height: 200px;
+  }
+
+  .main-bg-main-dest-div-3 {
+    width: 360px;
+    height: 200px;
+  }
+
+  .main-bg-main-dest-div-4 {
+    width: 360px;
+    height: 200px;
   }
 
   .home-enjoy-cont {
@@ -802,6 +1026,18 @@
   .paragraph-5 {
     margin-bottom: 30px;
   }
+
+  .paragraph-5-link {
+    margin-bottom: 30px;
+  }
+
+  .paragraph-5-link-cp-2 {
+    margin-bottom: 30px;
+  }
+
+  .paragraph-5-link-cp-3 {
+    margin-bottom: 30px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -819,6 +1055,35 @@
 
   .main-bg-cont {
     max-width: 90%;
+  }
+
+  .main-bg-main-dest-div {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/lovely_view_of_mount_kailash.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/lovely_view_of_mount_kailash.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+
+  .main-bg-main-dest-div-2.last {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/dest_wiki_5433.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/dest_wiki_5433.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+
+  .main-bg-main-dest-div-3 {
+    margin-right: 0px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/1457720_683384285029832_148806331_n_20170503162300.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/1457720_683384285029832_148806331_n_20170503162300.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+
+  .main-bg-main-dest-div-4 {
+    display: none;
   }
 
   .home-enjoy-cont {
@@ -886,11 +1151,145 @@
     position: static;
     margin-top: 20px;
   }
+
+  .mobile-follow-us-fixed-div {
+    position: fixed;
+    left: auto;
+    top: 30%;
+    right: -10%;
+    bottom: 0%;
+    z-index: 2999;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 20%;
+    height: 300px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: rgba(18, 25, 33, 0.95);
+  }
+
+  .mobile-follow-us-fixed-div-inner-div-1 {
+    position: relative;
+    display: block;
+    width: 50%;
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .mobile-follow-us-fixed-div-inner-div-2 {
+    width: 50%;
+    height: 100%;
+  }
+
+  .text-block-7 {
+    position: absolute;
+    left: -80%;
+    top: 45%;
+    right: auto;
+    bottom: auto;
+    display: block;
+    width: 200px;
+    height: auto;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    font-family: Poppins, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 11px;
+    text-transform: uppercase;
+  }
+
+  .top-nav-social-links-side {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .social-links-side {
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+
+  .social-links-side.last {
+    margin-right: 0px;
+    margin-bottom: 0px;
+  }
+
+  .text-block-8 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Icofont, sans-serif;
+    color: #fff;
+    font-size: 26px;
+    line-height: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
+  .main-bg-div {
+    background-position: 45% 100%;
+  }
+
   .main-bg-cont {
     max-width: 98%;
+  }
+
+  .main-bg-main-dest-div {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+  }
+
+  .main-bg-main-dest-div-2.last {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+  }
+
+  .main-bg-main-dest-div-3 {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
   }
 
   .footer-column-2 {
@@ -917,6 +1316,8 @@
 
   .footer-copyright-cont {
     max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .footer-cont-div {
@@ -945,6 +1346,20 @@
   .home-our-tours-card-div-1.last {
     margin-bottom: 0px;
   }
+
+  .home-our-tours-card-div-1-bottom-div {
+    padding-left: 15px;
+  }
+
+  .mobile-follow-us-fixed-div {
+    right: -10%;
+    width: 20%;
+    height: 280px;
+  }
+
+  .text-block-7 {
+    left: -120%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -963,8 +1378,21 @@
     justify-content: center;
   }
 
+  .main-bg-main-dest-div {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/lovely_view_of_mount_kailash.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/lovely_view_of_mount_kailash.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+
   .main-bg-main-dest-div-2.last {
     margin-right: 0px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/dest_wiki_5433.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/dest_wiki_5433.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
   }
 
   .main-bg-main-dest-div-3 {
@@ -1043,6 +1471,30 @@
 
   .link-tel.footer {
     margin-bottom: 10px;
+  }
+
+  .mobile-follow-us-fixed-div {
+    right: -15%;
+    width: 30%;
+    background-color: transparent;
+  }
+
+  .mobile-follow-us-fixed-div-inner-div-1 {
+    height: 15%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background-color: rgba(18, 25, 33, 0.95);
+  }
+
+  .text-block-7 {
+    left: -140%;
+    display: none;
+    margin-left: 0px;
+  }
+
+  .top-nav-social-links-side {
+    padding-left: 0px;
+    background-color: rgba(18, 25, 33, 0.95);
   }
 }
 
