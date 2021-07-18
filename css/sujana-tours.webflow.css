@@ -1,3 +1,31 @@
+.w-form-formrecaptcha {
+  margin-bottom: 8px;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
 p {
   margin-bottom: 10px;
 }
@@ -5,6 +33,7 @@ p {
 .top-nav-div {
   position: relative;
   z-index: 999;
+  background-color: rgba(18, 25, 33, 0.95);
 }
 
 .top-nav-cont {
@@ -44,6 +73,10 @@ p {
   font-size: 26px;
   line-height: 30px;
   letter-spacing: 3px;
+}
+
+.text-block.logo-top {
+  display: none;
 }
 
 .top-nav-links-links {
@@ -203,12 +236,18 @@ p {
   margin-right: 30px;
   padding-left: 0px;
   border-radius: 6px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/lovely_view_of_mount_kailash.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/lovely_view_of_mount_kailash.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/dest_pixa_11801.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/dest_pixa_11801.jpg');
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   box-shadow: 4px 4px 16px -2px #000;
+}
+
+.main-bg-main-dest-div.last {
+  margin-right: 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(null), to(null)), url('../images/dest_pixa_11801.jpg');
+  background-image: linear-gradient(180deg, null, null), url('../images/dest_pixa_11801.jpg');
 }
 
 .heading-2 {
@@ -563,13 +602,25 @@ p {
   text-align: center;
 }
 
+.heading-4.contact {
+  margin-top: 0px;
+  font-size: 24px;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.heading-4.fixed {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
 .paragraph-4 {
   margin-bottom: 30px;
   font-family: Poppins, sans-serif;
   color: #555;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 33.6px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
 }
 
@@ -578,6 +629,7 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 60px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -611,10 +663,143 @@ p {
 .home-our-tours-card-div-1-top-div {
   position: relative;
   height: 220px;
-  background-image: url('../images/lovely_view_of_mount_kailash.jpg');
-  background-position: 45% 62%;
-  background-size: auto;
-  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/KAILASH-IMAGE08.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/KAILASH-IMAGE08.jpg');
+  background-position: 0px 0px, 45% 62%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.home-our-tours-card-div-1-top-div._2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/DUBAI-IMAGE06.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/DUBAI-IMAGE06.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat;
+}
+
+.home-our-tours-card-div-1-top-div._3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/MALAYSIA-IMAGE05.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/MALAYSIA-IMAGE05.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat;
+}
+
+.home-our-tours-card-div-1-top-div._4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/SINGAPORE-IMAGE03.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/SINGAPORE-IMAGE03.jpg');
+  background-position: 0px 0px, 100% 0%;
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/THAILAND-IMAGE01.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/THAILAND-IMAGE01.jpg');
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._6 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/BALI-IMAGE07.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/BALI-IMAGE07.jpg');
+  background-position: 0px 0px, 50% 80%;
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._7 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/TEMPLE-IN-COLOMBO-SRI-LANKA-IMAGE02.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/TEMPLE-IN-COLOMBO-SRI-LANKA-IMAGE02.jpg');
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._8 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/NALLUR_KANDASAMY_SRILANKA-IMAGE04.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/NALLUR_KANDASAMY_SRILANKA-IMAGE04.jpg');
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._9 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/KAILASH-IMAGE08.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/KAILASH-IMAGE08.jpg');
+  background-position: 0px 0px, 50% 30%;
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._10 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/OIE_714028GM1HMSCL-IMAGE07.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/OIE_714028GM1HMSCL-IMAGE07.jpg');
+  background-position: 0px 0px, 100% 100%;
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._11 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/INDIA_SRINAGAR-IMAGE10.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/INDIA_SRINAGAR-IMAGE10.jpg');
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._12 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/VARANASI-IMAGE02.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/VARANASI-IMAGE02.jpg');
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div.int {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/ANGKOR-WAT-TEMPLE-COMPLEX-CAMB-IMAGE08.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/ANGKOR-WAT-TEMPLE-COMPLEX-CAMB-IMAGE08.jpg');
+}
+
+.home-our-tours-card-div-1-top-div.dom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/IMAGE03.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/IMAGE03.jpg');
+}
+
+.home-our-tours-card-div-1-top-div._2-dom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/IMAGE01.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/IMAGE01.jpg');
+  background-position: 0px 0px, 0px 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat;
+}
+
+.home-our-tours-card-div-1-top-div._3-dom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/IMAGE02.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/IMAGE02.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat;
+}
+
+.home-our-tours-card-div-1-top-div._4-dom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/IMAGE03_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/IMAGE03_1.jpg');
+  background-position: 0px 0px, 100% 0%;
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._5-dom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/IMAGE01_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/IMAGE01_1.jpg');
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._6-dom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/IMAGE02_1.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/IMAGE02_1.jpg');
+  background-position: 0px 0px, 50% 80%;
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._7-dom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/BADRINATH_TEMPLE_UTTARAKHAND_PHOTO-_VISHWANATH_NEGI-IMAGE12.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/BADRINATH_TEMPLE_UTTARAKHAND_PHOTO-_VISHWANATH_NEGI-IMAGE12.jpg');
+  background-size: auto, cover;
+}
+
+.home-our-tours-card-div-1-top-div._8-dom {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/YUMTHANG_VALLEY_LACHUNG_SIKKIM_INDIA_2012-IMAGE01.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/YUMTHANG_VALLEY_LACHUNG_SIKKIM_INDIA_2012-IMAGE01.jpg');
+  background-size: auto, cover;
 }
 
 .home-our-tours-card-div-1-bottom-div {
@@ -628,6 +813,7 @@ p {
   font-size: 20px;
   line-height: 24px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .paragraph-5 {
@@ -728,19 +914,21 @@ p {
 .home-our-tours-card-div-1-top-div-2 {
   position: relative;
   height: 220px;
-  background-image: url('../images/dest_wiki_5433.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/dest_wiki_5433.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/dest_wiki_5433.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .home-our-tours-card-div-1-top-div-3 {
   position: relative;
   height: 220px;
-  background-image: url('../images/odsfqxharidwar.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/odsfqxharidwar.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/odsfqxharidwar.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
 }
 
 .view-all-tours-div {
@@ -810,10 +998,7 @@ p {
 }
 
 .tour-cards-view-details-div {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   margin-bottom: 30px;
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -963,6 +1148,426 @@ p {
   display: none;
 }
 
+.main-bg-main-dest-div-5 {
+  width: 320px;
+  height: 160px;
+  margin-right: 30px;
+  padding-left: 20px;
+  border-radius: 6px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/ITChKitaj_mahal_main.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/ITChKitaj_mahal_main.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  box-shadow: 4px 4px 16px -2px #000;
+}
+
+.main-bg-main-dest-div-5.last {
+  margin-right: 0px;
+  padding-left: 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/dest_wiki_5433.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/dest_wiki_5433.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.main-bg-main-dest-div-6 {
+  width: 320px;
+  height: 160px;
+  margin-right: 30px;
+  padding-left: 20px;
+  border-radius: 6px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/dest_wiki_5433.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/dest_wiki_5433.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  box-shadow: 4px 4px 16px -2px #000;
+}
+
+.main-bg-main-dest-div-6.last {
+  margin-right: 0px;
+  padding-left: 0px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url('../images/dest_wiki_5433.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/dest_wiki_5433.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.contact-hero-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 450px;
+  margin-top: -75px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/dest_wiki_5433.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/dest_wiki_5433.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.contact-hero-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.spacer-div {
+  width: 40%;
+  border: 3px solid #ffc107;
+  border-radius: 12px;
+}
+
+.heading-6 {
+  font-family: Poppins, sans-serif;
+  color: #fff;
+  font-size: 42px;
+  line-height: 50.4px;
+  text-transform: uppercase;
+}
+
+.contact-main-sec-top-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #121921;
+}
+
+.contact-main-sec-top-cont {
+  height: 100%;
+}
+
+.columns-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.column {
+  height: 100%;
+}
+
+.column-2 {
+  height: 100%;
+}
+
+.column-3 {
+  height: 100%;
+}
+
+.text-block-9 {
+  margin-bottom: 10px;
+  font-family: Icofont, sans-serif;
+  color: #fff;
+  font-size: 46px;
+  line-height: 46px;
+  text-align: center;
+}
+
+.text-block-10 {
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  color: #fc5b62;
+  font-size: 18px;
+  line-height: 21.6px;
+}
+
+.paragraph-6 {
+  color: hsla(0, 0%, 100%, 0.6);
+}
+
+.link-3 {
+  color: hsla(0, 0%, 100%, 0.6);
+  text-decoration: none;
+}
+
+.columns-2-copy {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container {
+  padding-top: 80px;
+  padding-bottom: 55px;
+}
+
+.field-label {
+  font-family: Poppins, sans-serif;
+  color: #555;
+  line-height: 22.4px;
+  font-weight: 500;
+}
+
+.form-name-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.text-field-2 {
+  border: 1px solid #d2d8dd;
+  border-radius: 3px;
+}
+
+.text-field-2.message {
+  height: 90px;
+  margin-bottom: 16px;
+}
+
+.form-first-name-div {
+  margin-bottom: 16px;
+}
+
+.recaptcha {
+  margin-bottom: 16px;
+}
+
+.columns-3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.map-div {
+  height: 100%;
+}
+
+.html-embed {
+  height: 100%;
+}
+
+.image {
+  height: 60px;
+}
+
+.image-2 {
+  height: 90px;
+}
+
+.about-hero-div {
+  padding-top: 138px;
+  padding-bottom: 138px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/hero_in_bg_2.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/hero_in_bg_2.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+}
+
+.about-hero-div.domestic {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url('../images/banner_bg.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/banner_bg.jpg');
+  background-position: 0px 0px, 50% 100%;
+}
+
+.about-hero-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: left;
+}
+
+.about-main-div {
+  padding-top: 80px;
+  padding-bottom: 55px;
+}
+
+.about-main-column-left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.rich-text-1 h2 {
+  margin-top: 0px;
+  font-family: Poppins, sans-serif;
+  line-height: 38.4px;
+  font-weight: 500;
+}
+
+.rich-text-1 p {
+  margin-bottom: 30px;
+  font-family: Poppins, sans-serif;
+  color: #555;
+  line-height: 22.4px;
+}
+
+.rich-text-1 h4 {
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 500;
+}
+
+.rich-text-1 li {
+  margin-bottom: 10px;
+  font-family: Poppins, sans-serif;
+  color: #555;
+  line-height: 18px;
+}
+
+.rich-text-1 h3 {
+  font-family: Poppins, sans-serif;
+  font-size: 22px;
+  line-height: 28.4px;
+  font-weight: 500;
+}
+
+.columns-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+}
+
+.column-4 {
+  padding-left: 30px;
+}
+
+.founders-image-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 40px;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.image-4 {
+  width: 280px;
+  height: 280px;
+  border-radius: 160px;
+}
+
+.founder-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-4-founder {
+  font-family: Poppins, sans-serif;
+  color: #333;
+  font-size: 32px;
+  line-height: 38.4px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.heading-4-founder.contact {
+  margin-top: 0px;
+  font-size: 24px;
+  line-height: 28.8px;
+  text-align: left;
+}
+
+.fixed-dep-div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
 @media screen and (min-width: 1920px) {
   .top-nav-cont {
     position: relative;
@@ -981,6 +1586,10 @@ p {
     bottom: 0%;
   }
 
+  .link {
+    font-size: 16px;
+  }
+
   .main-bg-cont {
     max-width: 80%;
   }
@@ -988,6 +1597,15 @@ p {
   .main-bg-main-dest-div {
     width: 360px;
     height: 200px;
+  }
+
+  .heading-2 {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .paragraph-2 {
+    font-size: 14px;
   }
 
   .main-bg-main-dest-div-2.last {
@@ -1044,6 +1662,21 @@ p {
   .paragraph-5-link-cp-3 {
     margin-bottom: 30px;
   }
+
+  .main-bg-main-dest-div-5.last {
+    width: 360px;
+    height: 200px;
+  }
+
+  .main-bg-main-dest-div-6 {
+    width: 360px;
+    height: 200px;
+  }
+
+  .main-bg-main-dest-div-6.last {
+    width: 360px;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1069,6 +1702,10 @@ p {
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
+  }
+
+  .main-bg-main-dest-div.last {
+    display: none;
   }
 
   .main-bg-main-dest-div-2.last {
@@ -1139,8 +1776,21 @@ p {
     max-width: 90%;
   }
 
+  .home-our-tours-card-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .home-our-tours-card-div-1 {
-    width: 30%;
+    width: 60%;
+    margin-bottom: 40px;
   }
 
   .home-our-tours-card-div-1-bottom-div {
@@ -1279,6 +1929,7 @@ p {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    background-color: rgba(18, 25, 33, 0.8);
   }
 
   .mobile-nav-menu-div {
@@ -1331,7 +1982,7 @@ p {
     z-index: 3200;
     display: none;
     height: 575px;
-    background-color: rgba(246, 90, 96, 0.95);
+    background-color: rgba(18, 25, 33, 0.9);
   }
 
   .mobile-nav-links-cont {
@@ -1377,14 +2028,19 @@ p {
     height: 40px;
     margin-bottom: 30px;
     padding: 10px;
+    border: 1px solid #f65a60;
     border-top-right-radius: 12px;
     border-bottom-left-radius: 12px;
-    background-color: #1c1b23;
+    background-color: #f65a60;
     font-family: Poppins, sans-serif;
     color: #fff;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+  }
+
+  .mobile-nav-links-text.w--current {
+    background-color: #1c1b23;
   }
 
   .mobile-nav-links-inner-div {
@@ -1438,6 +2094,40 @@ p {
   .link-block-3 {
     text-decoration: none;
   }
+
+  .main-bg-main-dest-div-5.last {
+    display: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/dest_wiki_5433.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/dest_wiki_5433.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+
+  .main-bg-main-dest-div-6.last {
+    display: none;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url('../images/dest_wiki_5433.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../images/dest_wiki_5433.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+
+  .image-3 {
+    height: 40px;
+  }
+
+  .founders-image-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .founder-1 {
+    margin-bottom: 40px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1471,6 +2161,9 @@ p {
   .main-bg-main-dest-div-4 {
     display: block;
     margin-right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
   }
 
   .footer-column-2 {
@@ -1504,6 +2197,10 @@ p {
   .footer-cont-div {
     padding-right: 5px;
     padding-left: 5px;
+  }
+
+  .paragraph-4 {
+    line-height: 25.2px;
   }
 
   .home-our-tours-card-div {
@@ -1541,6 +2238,127 @@ p {
   .text-block-7 {
     left: -120%;
   }
+
+  .mobile-nav-menu-icon-text {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .mobile-nav-menu-icon-text-close {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  .main-bg-main-dest-div-5.last {
+    display: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+  }
+
+  .main-bg-main-dest-div-6.last {
+    display: none;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+  }
+
+  .main-bg-main-dest-div-6.last-mob {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+  }
+
+  .spacer-div {
+    border-width: 2px;
+  }
+
+  .heading-6 {
+    font-size: 32px;
+    line-height: 38.4px;
+  }
+
+  .columns-2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .column-2 {
+    margin-bottom: 20px;
+  }
+
+  .column-3 {
+    margin-bottom: 20px;
+  }
+
+  .form-name-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .columns-3 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+
+  .html-embed {
+    height: 360px;
+  }
+
+  .form-2 {
+    margin-bottom: 40px;
+  }
+
+  .about-main-column-left {
+    margin-bottom: 40px;
+  }
+
+  .columns-4 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .column-4 {
+    padding-left: 10px;
+  }
+
+  .image-4 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .heading-4-founder {
+    font-size: 26px;
+    line-height: 30px;
+  }
+
+  .fixed-dep-div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .image-5 {
+    margin-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1557,10 +2375,10 @@ p {
   }
 
   .main-bg-destinations {
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 
   .main-bg-main-dest-div {
@@ -1583,6 +2401,7 @@ p {
 
   .main-bg-main-dest-div-3 {
     display: block;
+    width: 48%;
     margin-right: 0px;
   }
 
@@ -1695,6 +2514,39 @@ p {
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
+  }
+
+  .main-bg-main-dest-div-5.last {
+    display: none;
+    margin-right: 0px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/dest_wiki_5433.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/dest_wiki_5433.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+
+  .main-bg-main-dest-div-6.last {
+    display: none;
+    margin-right: 0px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/dest_wiki_5433.jpg');
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/dest_wiki_5433.jpg');
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+  }
+
+  .main-bg-main-dest-div-6.last-mob {
+    width: 48%;
+    margin-right: 0px;
+  }
+
+  .spacer-div {
+    border-width: 1px;
+  }
+
+  .heading-4-founder {
+    font-size: 24px;
   }
 }
 
