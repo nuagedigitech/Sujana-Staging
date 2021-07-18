@@ -526,6 +526,7 @@ p {
   border-color: hsla(0, 0%, 100%, 0.06);
   background-color: hsla(0, 0%, 100%, 0.06);
   font-family: Poppins, sans-serif;
+  color: hsla(0, 0%, 100%, 0.8);
 }
 
 .submit-button {
