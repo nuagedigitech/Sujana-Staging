@@ -661,6 +661,10 @@ p {
   margin-right: 0px;
 }
 
+.home-our-tours-card-div-1.hide {
+  display: none;
+}
+
 .home-our-tours-card-div-1-top-div {
   position: relative;
   height: 220px;
@@ -816,6 +820,11 @@ p {
 .home-our-tours-card-div-1-top-div._15 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/1920PX-SHRI_JAGANNATHA_TEMPLE1920-1280.jpg');
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/1920PX-SHRI_JAGANNATHA_TEMPLE1920-1280.jpg');
+}
+
+.home-our-tours-card-div-1-top-div._16 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/gulmarg-kashmir-cable-car.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/gulmarg-kashmir-cable-car.jpg');
 }
 
 .home-our-tours-card-div-1-bottom-div {
